@@ -9,6 +9,7 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
 import com.example.pfedapp20220809.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -31,7 +32,10 @@ class MainActivity : AppCompatActivity() {
         binding.fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
+            Toast.makeText( this,">Hello from Mail-Button-Click<", Toast.LENGTH_LONG).show()
         }
+
+        Toast.makeText( this,">Hello from App-Start<", Toast.LENGTH_LONG).show()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -44,10 +48,13 @@ class MainActivity : AppCompatActivity() {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
+        Toast.makeText( this,"PFED says >>>Hello from Symbolclick<<<", Toast.LENGTH_LONG).show()
+
         return when (item.itemId) {
             R.id.action_settings -> true
             else -> super.onOptionsItemSelected(item)
         }
+
     }
 
     override fun onSupportNavigateUp(): Boolean {
