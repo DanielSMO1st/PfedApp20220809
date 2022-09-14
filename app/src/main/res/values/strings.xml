@@ -9,5 +9,6 @@
 
     <string name="hello_first_fragment">Hello first fragmentPFED20220809</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="action_message_bw1pfed0_20220913">Replace with your own action-pfedmsg20220913-number2</string>
+    <string name="action_message_bw1pfed0_20220913">Replace with your own action-pfedmsg20220914-number1</string>
+    <string name="hello_from_mail_button_klick"><![CDATA[>20220914 Hello from Mail-Button-Click<]]></string>
 </resources>

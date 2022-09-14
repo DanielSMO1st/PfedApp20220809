@@ -30,9 +30,9 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
 
         binding.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+            Snackbar.make(view, getString(R.string.action_message_bw1pfed0_20220913), Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
-            Toast.makeText( this,">Hello from Mail-Button-Click<", Toast.LENGTH_LONG).show()
+            Toast.makeText( this, getString(R.string.hello_from_mail_button_klick), Toast.LENGTH_LONG).show()
         }
 
         Toast.makeText( this,">Hello from App-Start<", Toast.LENGTH_LONG).show()
